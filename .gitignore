@@ -4,12 +4,18 @@
 /node_modules
 /.pnp
 .pnp.js
-/public
-/package-lock.json
-/package.json
+# /public
+# /package-lock.json
+# /package.json
 
 # testing
 /coverage
+# /reportWebVitals.js
+# /setupTests.js
+# .gitignore
+# /index.css
+# /index.js~
+# /README.md
 
 # production
 /build
