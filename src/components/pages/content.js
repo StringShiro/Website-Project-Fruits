@@ -1,3 +1,4 @@
+import Support from "./subpage"
 export default function Content(){
     return (
         <>
@@ -15,7 +16,8 @@ export default function Content(){
                     carousel 
                 </div>
                 <div className="body__about--store">
-                    support 24/7 + method pay + demo store
+                    <Support/>
+                    {/* support 24/7 + method pay + demo store */}
 
                 </div>
             </div>

@@ -1,10 +1,11 @@
 
 :root{
-    --color-mossgreen:#008080;
-    --color:#198c8c;
+    --color-text:#2b7979;
     --color-white:#fff;
     --color-black:#000;
-    
+    --color-background:#e5f2e5;
+    --color-button:#41a5a5;  
+      
 
 }
 .app{
@@ -25,27 +26,27 @@
 
 
 /* START header__navbar--contact-----------------------------------------------------------------------------------------------------------------------------------------> */
+.header__navbar--container{
+}
 .header__navbar--contact{
     height: 1.8rem;
-    background-color: red;
     position: relative;
-    background-color: var(--color-mossgreen);
+    background-color: var(--color-text);
 
 }
-
-
 .header__navbar-social{
+    padding-left: 0;
     display: flex;
     --line-height-social:27px;
     line-height: var(--line-height-social);
     justify-content: space-between;
     background-color: var(--color);
     list-style: none;
-    padding: 0 350px;
-    margin: 0;
+    margin: auto;
+    width: 90%;
     color: var(--color-white);
-
 }
+
 .header__navbar-link{
     text-decoration: none;
     color: var(--color-white);
@@ -53,17 +54,13 @@
 }
 .header__navbar-contactlink{
     color: var(--color-white);
-    
 }
 .header__navbar-social .header__navbar-contactlist{
     display: flex;
     list-style: none;
 }
-
 .header__navbar-social .header__navbar-item:nth-child(2) .header__navbar-contactitem{
-    padding-left: 30px;
-
-
+    padding-left: 15px;
 }
 .header__navbar-spanproduct{
     padding-right: 10px;
@@ -88,16 +85,14 @@
     width: 100%;
 }
 .header__navbar-menu{
-    padding: 0 350px;
+    width: 90%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     list-style: none;
     bottom: 0;
 }
-.header__navbar-menu .header__navbar-item{
-    
 
-}
 .header__navbar-menu  .header__navbar-icon{
     padding-left: 10px;
 }
@@ -156,7 +151,131 @@
 /* START body__about--store-----------------------------------------------------------------------------------------------------------------------------------------> */
 .body__about--store{
     height: 68rem;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+}
+.store__support--hours{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.store__support--heading{
+   width: 90%;
+   background-color: var(--color-background);
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   height: 20rem;
+}
+.store__support--solid{
+    border-left: 5px solid var(--color-text);
+    position: absolute;
+    height: 7rem;
+    left: 0;
+    
+}
+.store__support--box{
+    position: relative;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.store__support-para{
+    width: 90%;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 3.5rem;
+    color:var(--color-text);
+    position: relative;
+
+}
+
+.store__support--list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+    padding: 20px 0 0 0;
+}
+.store__support--img{
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 0 1rem 0.5rem 0;
+    
+
+}
+.store__support--image{
+    width: 100%;
+    height: 100%;
+}
+.store__support--item{
+    display: flex;
+    margin: 10px 30px;
+}
+.store__support--span{
+    display: block;
+    line-height: 0.9rem;
+    height: 1.8rem;
+    word-wrap: break-word;
+    word-break: break-word;
+    text-align: left;
+}
+.store__support--about{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding-top: 30px;
+}
+.store__support--authorweb{
+    width: calc(100%/2);
+}
+.store__support--content{
+    width: calc(100%/3);
+    position: relative;
+    padding: 25px 0;
+}
+.store__support--name{
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: var(--color-text);
+    font-size: 1.8rem;
+    font-weight: 400;
+
+}
+.store__support--author{
+    width: 22rem;
+    height: 22rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+.store__support--authourimg{
+    width: 80%;
+    height: 80%;
+    border: 2px solid var(--color-button);
+    border-radius: 50%;
+    box-shadow: 2px 2px 0 var(--color-text);
+}
+.store__support--paragrap{
+    line-height: 1.3rem;
+    word-wrap: break-word;
+    word-break: break-word;
+    display: block;
+}
+.store__support--btn{
+    padding: 15px 20px;
+    border: none;
+    display: block;
+    background-color: var(--color-button);
+    position: absolute;
+    bottom: 0;
 }
 /* END   body__about--store-----------------------------------------------------------------------------------------------------------------------------------------> */
 

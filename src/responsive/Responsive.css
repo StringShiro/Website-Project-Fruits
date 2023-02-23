@@ -1,0 +1,163 @@
+/* ////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////MOBILE__INTERFACE/////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (max-width: 47.1875em) {
+/* START header__navbar--contact-----------------------------------------------------------------------------------------------------------------------------------------> */
+
+    .header__navbar-social .header__navbar-contactlist{
+        display: none;
+    }
+    .header__navbar-social .header__navbar-item:nth-child(1){
+        padding: 0;
+    }
+    .header__navbar-social .header__navbar-item:nth-child(2){
+        display: none;
+    }
+    .header__navbar-item:nth-child(1){
+        width:100%
+    }
+    .header__navbar--navigation{
+        display: none;
+    }
+/* END  header__navbar--contact-----------------------------------------------------------------------------------------------------------------------------------------> */
+
+/* START body__about--store-----------------------------------------------------------------------------------------------------------------------------------------> */
+    .store__support-para{
+        font-size: 1.8rem;
+    }
+    .store__support--heading{
+        width: 100%;
+        height: 10rem;
+    }
+    .store__support--list{
+        padding-left: 0;
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+    .store__support--box{
+        width: 90%;
+    }
+    .store__support--item{
+        width: calc(100%/2);
+        margin: 10px 0;
+        padding: 10px 0;
+        flex-wrap: wrap;
+
+
+    }
+    .store__support--img{
+        width: 100%;
+    }
+    .store__support--title{
+        width: 100%;
+    }
+    .store__support--span{
+        text-align: center;
+
+    }
+    .store__support--about{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .store__support--authorweb{
+        width: 100%;
+    }
+    .store__support--content{
+        width: 80%;
+        margin: auto;
+        word-break: break-word;
+    }
+    .store__support--authourimg{
+        width: 100%;
+    }
+    .store__support--button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .store__support--btn{
+        position: unset;
+        
+    }
+/* END   body__about--store-----------------------------------------------------------------------------------------------------------------------------------------> */
+
+}
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////PC + TABLET__INTERFACE/////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+@media only screen and (min-width: 47.25em) and (max-width:63.9375em){
+/* START header__navbar--contact-----------------------------------------------------------------------------------------------------------------------------------------> */
+
+
+.header__navbar-social .header__navbar-contactlist{
+    display: none;
+}
+.header__navbar-social .header__navbar-item:nth-child(1){
+    padding: 0;
+}
+.header__navbar-social .header__navbar-item:nth-child(2){
+    display: none;
+}
+.header__navbar-item:nth-child(1){
+    width:100%
+}
+.header__navbar--navigation{
+    display: none;
+}
+/* END  header__navbar--contact-----------------------------------------------------------------------------------------------------------------------------------------> */
+ 
+/* START body__about--store-----------------------------------------------------------------------------------------------------------------------------------------> */
+.store__support-para{
+    font-size: 1.8rem;
+}
+.store__support--heading{
+    width: 100%;
+    height: 10rem;
+}
+.store__support--list{
+    padding-left: 0;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+
+}
+.store__support--box{
+    width: 90%;
+}
+.store__support--item{
+    width: calc(100%/2);
+    margin: 10px 0;
+    padding: 10px 0;
+    flex-wrap: wrap;
+
+}
+
+.store__support--span{
+    text-align: center;
+
+}
+
+.store__support--authorweb{
+    width: 100%;
+}
+.store__support--content{
+    width: 100%;
+    
+}
+.store__support--authourimg{
+    width: 80%;
+    height: 80%;
+}
+/* END   body__about--store-----------------------------------------------------------------------------------------------------------------------------------------> */
+
+
+
+}
